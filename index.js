@@ -10,9 +10,9 @@ function nowServing(line){
 }
 
 function currentLine(line) {
-var line2=[];
-if(line>[]) {
-  for(var i=0;i<line.length;i++) {
+var line2 = [];
+if(line > []) {
+  for(var i = 0; i < line.length; i++) {
       line2.push(` ${i+1}. ${line[i]}`);
     }
     return "The line is currently:" + line2;
